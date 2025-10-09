@@ -53,5 +53,6 @@ SSR pages become blank and links to them unresponsive after hard refresh or manu
 
 - The issue only occurs in Cloudflare preview/production environments
 - `yarn dev` works fine (prefetching is disabled in dev mode)
+- `yarn build + yarn start` works fine (Open Next out of the loop)
 - Adding `export const revalidate = 0;` to the SSR page fixes the issue
 - The issue appears to be related to RSC payload caching with prefetching
