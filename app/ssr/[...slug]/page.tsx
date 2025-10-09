@@ -2,6 +2,8 @@ import Link from "next/link";
 
 export const dynamic = "force-dynamic";
 export const fetchCache = "force-no-store";
+// NOTE: Uncomment this to fix the issue
+// export const revalidate = 0;
 
 type SlugParams = { slug: string[] };
 
