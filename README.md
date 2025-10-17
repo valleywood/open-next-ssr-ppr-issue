@@ -1,4 +1,4 @@
-# SSR Blank Page Reproduction
+# Open Next SSR Blank Page Reproduction
 
 This is a minimal reproduction case for a blank page issue with SSR routes in OpenNext/Cloudflare environments.
 
